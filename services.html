@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Tours & Travels</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1> Our Services </h1>
+            
+        </div>
+
+    </section>
+    <!---------------Services -------------->
+    <section class="Services">
+        <h1>Experience Once In Your Life Time</h1>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they <br>live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+        <div class="row row-col">
+            <div class="Services-col ">
+                <img src="img/001-breakfast.jpg">
+                <h3>Good Foods</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="Services-col">
+                <img src="img/002-planet-earth.jpg" >
+                <h3>Travel Anywhere</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="Services-col">
+                <img src="img/003-airplane (2).jpg">
+                <h3>Airplane</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="Services-col">
+                <img src="img/004-beach.jpg">
+                <h3>Beach Resort</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="Services-col">
+                <img src="img/005-mountains.jpg">
+                <h3>Mountain Climbing</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="Services-col">
+                <img src="img/006-hot-air-balloon.jpg">
+                <h3>Hot Air Balloon</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--------Top Destinations----------------->
+
+    <section class="destination">
+        <h1>Top Destinations</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus voluptatibus eos quis mollitia est minus itaque rerum dolores! Cum unde nemo vel. Aperiam perspiciatis asperiores odit, beatae tenetur ipsum ipsa?</p>
+
+        <div class="row">
+            <div class="dest-col">
+                <img src="img/img_1.jpg (1).webp"><br>
+                <h3>Food & Wines</h3><br>
+                
+            </div>
+
+            <div class="dest-col">
+                <img src="img/img_2.jpg (1).webp"><br>
+                <h3>Resort & Spa</h3><br>
+                
+            </div>
+
+            <div class="dest-col">
+                <img src="img/img_3.jpg.webp"><br>
+                <h3>Hotel Rooms</h3><br>
+                
+            </div>
+
+            <div class="dest-col">
+                <img src="img/img_5.jpg.webp"><br>
+                <h3>Mountain Climbing</h3><br>
+               
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-----------footer----------->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Iure nulla nam quibusdam natus consequuntur totam ex,<br>
+            harum nesciunt at doloribus, neque minima quod nemo.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Copyright ©2023 All rights reserved </p>
+    </section>
+
+
+
+    <!--Javascript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

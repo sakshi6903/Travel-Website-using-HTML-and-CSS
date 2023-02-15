@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Tours & Travels</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1> Blog </h1>
+           
+        </div>
+
+    </section>
+    <!---------------Blog pag content -------------->
+
+    <section class="Blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/about_2.jpg.webp">
+                <h2>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h2>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                <br>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                <br>
+                <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                <br>
+                <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+                <br>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                <br>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                <br><br>
+                <p>Categories: Design, Events Tags: #html, #trends</p>
+
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="Your comment"> 
+                        </textarea>
+                        <button type="submit" class="button red-btn">POST COMMENT</button>
+
+                    </form>
+                   
+                </div>
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Creatives</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>News</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Design</span>
+                    <span>37</span>
+                </div>
+                <div>
+                    <span>HTML</span>
+                    <span>14</span>
+                </div>
+                <div>
+                    <span>Web Development</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>HTML</span>
+                    <span>14</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-----------footer----------->
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Iure nulla nam quibusdam natus consequuntur totam ex,<br>
+            harum nesciunt at doloribus, neque minima quod nemo.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Copyright ©2023 All rights reserved </p>
+    </section>
+
+
+
+    <!--Javascript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
